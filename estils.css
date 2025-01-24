@@ -1,0 +1,42 @@
+
+h1{color: rgb(151, 4, 4);
+font-size: 45px;
+background-color:rgb(255, 255, 255);
+font-family: "Lavishly Yours"; serif;
+padding-left:  1px;
+}
+
+h2{color:rgb(151, 4, 4);
+font-family: "Lavishly Yours";serif;
+font-size: 35px;
+padding-left:10px}
+
+p{;
+text-align: justify;}
+
+#introducció{color:rgb(213, 36, 36);}
+
+.colorblau{ color:rgb(0, 0, 0);}
+
+#cos {color:black}
+
+.capçalera{grid-area: c;
+  }
+
+.contingut{grid-area: o;}
+
+.lateral{grid-area: l;}
+
+.peu{grid-area: p;}
+
+.principal{
+  padding-left: 30px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-rows: 90px auto 20px;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas:
+  "c c"
+  "o l"
+  "p p";
+}
